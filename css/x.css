@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'chap';
+  src:    url('../fonts/chap.eot');
+  src:    url('../fonts/chap.eot?#iefix')       format('embedded-opentype'),
+    url('../fonts/chap.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+ color: #555;
+ font-size: 14px;
+ font-family: 'Libre Baskerville', serif;
+ line-height: 28px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 104px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-3 {
+  width: 100%;
+  padding: 0 20px 0 0;
+}
+
+ul.links {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+header {
+  padding-bottom: 104px;
+}
+
+.title {
+  font-family: 'chap';
+  color: #010101;
+  font-size: 36px;
+}
+
+.section-title {
+  color: #EA9635;
+  font-family: 'chap';
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+a {
+  color: inherit;
+}
+
+p.label {
+  font-style: italic;
+  margin-bottom: 9px;
+}
+
+@media (min-width: 600px) {
+  .col-3 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .col-3 {
+    width: 25%;
+  }
+}
