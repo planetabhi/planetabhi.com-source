@@ -1,2 +1,2 @@
 # planetabhi.com-source
-Source code my personal landing page.
+Source code of personal landing page.
