@@ -1,8 +1,6 @@
-![](images/cover.png)
-
 # planetabhi.com-source
 
-Source code my personal landing page. 
+Source code of personal landing page. 
 
 [Live Preview](http://planetabhi.com/)
 
